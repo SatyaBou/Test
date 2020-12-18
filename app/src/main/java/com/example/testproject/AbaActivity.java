@@ -27,7 +27,7 @@ public class AbaActivity extends AppCompatActivity {
         browser.evaluateJavascript("(function() { return document.querySelector('body').innerHTML; })();", new ValueCallback<String>() {
             @Override
             public void onReceiveValue(String value) {
-                Log.d("responseData", "onReceiveValue: " + value);
+              //  Log.d("responseData", "onReceiveValue: " + value);
             }
         });
 
